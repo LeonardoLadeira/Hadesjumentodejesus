@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Origem de Hades</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&family=EB+Garamond&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: url('https://www.transparenttextures.com/patterns/black-felt.png');
+      color: #eee;
+    }
+
+    header.hero {
+      background: url('personagem.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000;
+      border-bottom: 5px double #ff4444;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-family: 'EB Garamond', serif;
+      color: #ff4444;
+    }
+
+    .hero p {
+      font-size: 2.5em;
+      font-style: italic;
+      font-family: 'Georgia', serif;
+      color: #fff;
+      text-shadow: 3px 3px 6px #000;
+    }
+
+    nav {
+      background-color: #1a0f0f;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      padding: 1em;
+      border-bottom: 2px solid #5c1f1f;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4444;
+    }
+
+    section {
+      padding: 3em 2em;
+      max-width: 900px;
+      margin: 3em auto;
+      background-color: rgba(20, 10, 10, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 0 20px #000;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #ff4444;
+      padding-bottom: 0.5em;
+      font-family: 'UnifrakturCook', cursive;
+      color: #ff9999;
+    }
+
+    .ficha ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .ficha li {
+      background-color: #222;
+      margin: 0.5em 0;
+      padding: 1em;
+      border-left: 4px solid #ff4444;
+      border-radius: 5px;
+      font-family: 'Georgia', serif;
+    }
+
+    .galeria img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #000;
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    .imagem-sugerida {
+      text-align: center;
+      margin: 2em 0;
+      font-style: italic;
+      color: #aaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2em 1em;
+      background-color: #1a0f0f;
+      color: #888;
+      border-top: 2px solid #5c1f1f;
+    }
+
+    @media (max-width: 768px) {
+      header.hero {
+        height: auto;
+        padding: 4em 1em;
+      }
+
+      .hero h1 {
+        font-size: 2.2em;
+      }
+
+      .hero p {
+        font-size: 1.3em;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+      }
+
+      section {
+        padding: 2em 1em;
+        margin: 1.5em 1em;
+      }
+
+      .ficha li {
+        font-size: 0.95em;
+        padding: 0.8em;
+      }
+
+      .galeria img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Hades: Filho do Proibido</h1>
+    <p>"Nasci no Éden... mas floresci no Inferno."</p>
+  </header>
+
+  <nav>
+    <a href="#historia">História</a>
+    <a href="#ficha">Ficha</a>
+    <a href="#galeria">Galeria</a>
+  </nav>
+
+  <section id="historia">
+    <h2>A Origem</h2>
+    <p>Era uma vez uma criança que nasceu nos Jardins do Éden, no Inferno. Seu nome era <strong>Hades, Jumento de Jesus</strong>. Filho proibido de Adão, um anjo, e Maria, uma demônia, Hades cresceu sem o pai e mal via a mãe que trabalhava o tempo todo. Sofria bullying dos outros demônios por sua origem.</p>
+    <div class="imagem-sugerida">[Imagem sugerida: Hades ainda criança, observando o jardim com expressão triste]</div>
+
+    <p>Desde pequeno ajudava nos Jardins do Éden, desenvolvendo habilidades como druida, compreendendo e comunicando-se com as plantas. Aos 19 anos, um misterioso sabotador destruiu parte do jardim. Hades foi injustamente acusado e aprisionado por Lúcifer no castelo por 12 dias.</p>
+    <div class="imagem-sugerida">[Imagem sugerida: Jardim do Éden corrompido pelas chamas]</div>
+
+    <p>Na cela escura do castelo, Hades refletia sobre sua origem, sua missão e o destino que parecia traçado para ele. A presença constante da dor, da dúvida e do abandono moldava lentamente o espírito de um guerreiro silencioso, que ainda não sabia o quanto o mundo precisava dele.</p>
+    <div class="imagem-sugerida">[Imagem sugerida: Cela sombria com feixes de luz tocando o rosto de Hades]</div>
+
+    <p>Sua mãe, em uma das visitas, lhe entregou um pó mágico que abriu um portal. Hades fugiu para o mundo humano, onde sua verdadeira história começa...</p>
+    <div class="imagem-sugerida">[Imagem sugerida: Portal se abrindo, com Hades olhando para um mundo desconhecido]</div>
+  </section>
+
+  <section class="ficha" id="ficha">
+    <h2>Ficha do Personagem</h2>
+    <ul>
+      <li><strong>Nome:</strong> Hades, Jumento de Jesus</li>
+      <li><strong>Classe:</strong> Druida</li>
+      <li><strong>Raça:</strong> Suraggel (Sulfure)</li>
+      <li><strong>Nível:</strong> 3</li>
+      <li><strong>Magias:</strong> Escuridão, Controlar Plantas, Arma Mágica</li>
+      <li><strong>Especializações:</strong> Cura, Fortitude, Intuição, Jogatina, Ladinagem, Nobreza, Percepção, Sobrevivência, Vontade</li>
+      <li><strong>Atributos:</strong> Força 2, Destreza 3, Constituição 1, Inteligência 3, Sabedoria 3, Carisma -1</li>
+      <li><strong>Ataques:</strong> Mordida, Foice, Escudo Leve</li>
+      <li><strong>Poderes e Habilidades:</strong> Herança Divina, Sombras Profanas, Devoto Fiel, Empatia Selvagem, Magias, Caminho dos Ermos, Venefício, Foco em Magia, Pele Corrompida, Urro Divino, Presas Afiadas</li>
+      <li><strong>Armadura:</strong> Gibão de Peles</li>
+    </ul>
+  </section>
+
+  <section class="galeria" id="galeria">
+    <h2>Arte do Personagem</h2>
+    <img src="personagem.jpg" alt="Hades - Personagem">
+    <div class="imagem-sugerida">[Espaço para incluir mais artes futuramente]</div>
+  </section>
+
+  <footer>
+    <p>Site criado por [Leonardo Ladeira] • 2025</p>
+  </footer>
+</body>
+</html>
